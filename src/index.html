@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <ul class="studentsList">
+            <h2>Всі студенти</h2>
+        </ul>
+
+        <form class="addNewStudentsForm">
+            <h2>Додати студента</h2>
+            <label>Ім'я
+                <input type="text" class="newStudentName">
+            </label>
+
+            <label>Email
+                <input type="text" class="newStudentEmail">
+            </label>
+            
+            <label>Телефон
+                <input type="text" class="newStudentPhone">
+            </label>
+            
+            <label>Вік
+                <input type="text" class="newStudentAge">
+            </label>
+
+            <button type="submit" class="addNewStudentBtn">Додати</button>
+        </form>
+
+        <form class="deleteStudentForm">
+            <h2>Видалити студента</h2>
+
+            <input type="text" class="deleteStudentInput">
+
+            <button class="deleteStudentBtn" type="submit">Видалити</button>
+        </form>
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
